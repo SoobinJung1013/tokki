@@ -26,12 +26,12 @@ import RotatingCardFront from "components/Cards/RotatingCard/RotatingCardFront";
 import RotatingCardBack from "components/Cards/RotatingCard/RotatingCardBack";
 
 // Images
-import bgFront1 from "assets/images/rotating-card-bg-front.jpeg";
-import bgBack1 from "assets/images/rotating-card-bg-back.jpeg";
-import bgFront2 from "assets/images/rotating-card-bg-front2.jpeg";
-import bgBack2 from "assets/images/rotating-card-bg-back2.jpeg";
-import bgFront3 from "assets/images/rotating-card-bg-front3.jpeg";
-import bgBack3 from "assets/images/rotating-card-bg-back3.jpeg";
+import bgFront1 from "assets/images/cards/rotating-card-bg-front.jpeg";
+import bgBack1 from "assets/images/cards/rotating-card-bg-back.jpeg";
+import bgFront2 from "assets/images/cards/rotating-card-bg-front2.jpeg";
+import bgBack2 from "assets/images/cards/rotating-card-bg-back2.jpeg";
+import bgFront3 from "assets/images/cards/rotating-card-bg-front3.jpeg";
+import bgBack3 from "assets/images/cards/rotating-card-bg-back3.jpeg";
 
 function PhotoCard() {
   return (
