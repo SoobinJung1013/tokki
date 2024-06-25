@@ -26,31 +26,31 @@ export default [
   {
     image: First,
     name: "Gallery",
-    route: "/archieve/gallery",
+    route: "/tokki/archieve/gallery",
   },
   {
     image: Third,
     name: "Concert",
-    route: "/archieve/concerts",
+    route: "/tokki/archieve/concerts",
   },
   {
     image: Seven,
     name: "Festival & Tour",
-    route: "/archieve/festivals",
+    route: "/tokki/archieve/festivals",
   },
   {
     image: Second,
     name: "TVT",
-    route: "/archieve/tvts",
+    route: "/tokki/archieve/tvts",
   },
   {
     image: Fifth,
     name: "Cover",
-    route: "/archieve/covers",
+    route: "/tokki/archieve/covers",
   },
   {
     image: Six,
     name: "Show",
-    route: "/archieve/shows",
+    route: "/tokki/archieve/shows",
   },
 ];

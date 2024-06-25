@@ -90,12 +90,12 @@ const routes = [
         collapse: [
           {
             name: "Introduction",
-            route: "/overview/introductions",
+            route: "/tokki/overview/introductions",
             component: <Introduction />,
           },
           {
             name: "Interview",
-            route: "/overview/interviews",
+            route: "/tokki/overview/interviews",
             component: <Interview />,
           },
         ],
@@ -105,32 +105,32 @@ const routes = [
         collapse: [
           {
             name: "Gallery",
-            route: "/archieve/gallery",
+            route: "/tokki/archieve/gallery",
             component: <Gallery />,
           },
           {
             name: "Concert",
-            route: "/archieve/concerts",
+            route: "/tokki/archieve/concerts",
             component: <Concert />,
           },
           {
             name: "Festival",
-            route: "/archieve/festivals",
+            route: "/tokki/archieve/festivals",
             component: <Festival />,
           },
           {
             name: "Cover",
-            route: "/archieve/covers",
+            route: "/tokki/archieve/covers",
             component: <Cover />,
           },
           {
             name: "Youtube & Show",
-            route: "/archieve/shows",
+            route: "/tokki/archieve/shows",
             component: <Show />,
           },
           {
-            name: "Video",
-            route: "/archieve/tvts",
+            name: "TVT",
+            route: "/tokki/archieve/tvts",
             component: <Video />,
           },
         ],
@@ -148,12 +148,12 @@ const routes = [
         collapse: [
           {
             name: "tellusboutyourself",
-            route: "/ablums/tellusboutyourself",
+            route: "/tokki/ablums/tellusboutyourself",
             component: <TellUsBoutYourself />,
           },
           {
             name: "Every Letter I Sent You",
-            route: "/ablums/every-letter-i-sent-you",
+            route: "/tokki/ablums/every-letter-i-sent-you",
             component: <EveryLetterISentYou />,
           },
         ],
@@ -165,37 +165,37 @@ const routes = [
         collapse: [
           {
             name: "New Year",
-            route: "/ablums/single-ep/new-year",
+            route: "/tokki/ablums/single-ep/new-year",
             component: <NewYear />,
           },
           {
             name: "Pisces",
-            route: "/ablums/single-ep/pisces",
+            route: "/tokki/ablums/single-ep/pisces",
             component: <Pisces />,
           },
           {
             name: "Love, Yerin",
-            route: "/ablums/single-ep/love-yerin",
+            route: "/tokki/ablums/single-ep/love-yerin",
             component: <LoveYerin />,
           },
           {
             name: "Our Love is Great",
-            route: "/ablums/single-ep/our-love-is-great",
+            route: "/tokki/ablums/single-ep/our-love-is-great",
             component: <OurLoveIsGreat />,
           },
           {
             name: "Love you on Christmas",
-            route: "/ablums/single-ep/love-you-on-christmas",
+            route: "/tokki/ablums/single-ep/love-you-on-christmas",
             component: <LoveYouOnChristmas />,
           },
           {
             name: "Bye bye my blue",
-            route: "/ablums/single-ep/bye-bye-my-blue",
+            route: "/tokki/ablums/single-ep/bye-bye-my-blue",
             component: <ByeByeMyBlue />,
           },
           {
             name: "FRANK",
-            route: "/ablums/single-ep/frank",
+            route: "/tokki/ablums/single-ep/frank",
             component: <FRANK />,
           },
         ],
@@ -207,17 +207,17 @@ const routes = [
         collapse: [
           {
             name: "L",
-            route: "/ablums/tvt/l",
+            route: "/tokki/ablums/tvt/l",
             component: <L />,
           },
           {
             name: "New Plant",
-            route: "/albums/tvt/new-plant",
+            route: "/tokki/albums/tvt/new-plant",
             component: <NewPlant />,
           },
           {
             name: "The Volunteers",
-            route: "/albums/tvt",
+            route: "/tokki/albums/tvt",
             component: <TheVolunteers />,
           },
         ],
