@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/tokki/static/js/main.470beb5b.js",
+    "main.js": "/tokki/static/js/main.c555253c.js",
     "static/media/poclanos-front.jpg": "/tokki/static/media/poclanos-front.13a1a75c9043af60bb2e.jpg",
     "static/media/tellusboutyourself.jpg": "/tokki/static/media/tellusboutyourself.fbbadbb4a45f4db0a31e.jpg",
     "static/media/olig.jpg": "/tokki/static/media/olig.1725d1736da3bf86ea08.jpg",
@@ -63,9 +63,9 @@
     "static/media/theOtherSide.jpg": "/tokki/static/media/theOtherSide.e53e832e859b7b9bc3af.jpg",
     "static/media/sdj.jpg": "/tokki/static/media/sdj.a82954b0e531ccf30f1a.jpg",
     "index.html": "/tokki/index.html",
-    "main.470beb5b.js.map": "/tokki/static/js/main.470beb5b.js.map"
+    "main.c555253c.js.map": "/tokki/static/js/main.c555253c.js.map"
   },
   "entrypoints": [
-    "static/js/main.470beb5b.js"
+    "static/js/main.c555253c.js"
   ]
 }
