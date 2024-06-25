@@ -25,9 +25,8 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
-import DefaultFooter from "examples/Footers/DefaultFooter";
-import DefaultNavbar from "examples/Navbars/DefaultNavbar";
-// import DefaultNavbarDropdown from "examples/Navbars/DefaultNavbar/DefaultNavbarDropdown";
+import DefaultNavbar from "components/Navbars/DefaultNavbar";
+import DefaultFooter from "components/Footers/DefaultFooter";
 
 // Presentation page sections
 import PhotoCards from "pages/Presentation/sections/PhotoCard";

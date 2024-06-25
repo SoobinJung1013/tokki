@@ -21,9 +21,9 @@ import Grid from "@mui/material/Grid";
 import MKBox from "components/MKBox";
 
 // Material Kit 2 React examples
-import RotatingCard from "./RotatingCard";
-import RotatingCardFront from "./RotatingCardFront";
-import RotatingCardBack from "./RotatinfCardBack";
+import RotatingCard from "components/Cards/RotatingCard";
+import RotatingCardFront from "components/Cards/RotatingCard/RotatingCardFront";
+import RotatingCardBack from "components/Cards/RotatingCard/RotatingCardBack";
 
 // Images
 import vogueFront from "assets/images/interview/vogue-back.jpg";

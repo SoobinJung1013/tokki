@@ -22,15 +22,9 @@ import Card from "@mui/material/Card";
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
-// Material Kit 2 React examples
-import DefaultNavbar from "examples/Navbars/DefaultNavbar";
-import DefaultFooter from "examples/Footers/DefaultFooter";
-
-// About Us page sections
-// import Information from "pages/LandingPages/AboutUs/sections/Information";
-// import Team from "pages/LandingPages/AboutUs/sections/Team";
-// import Featuring from "pages/LandingPages/AboutUs/sections/Featuring";
-// import Newsletter from "pages/LandingPages/AboutUs/sections/Newsletter";
+// Material Kit 2 React components
+import DefaultNavbar from "components/Navbars/DefaultNavbar";
+import DefaultFooter from "components/Footers/DefaultFooter";
 
 // Routes
 import routes from "routes";

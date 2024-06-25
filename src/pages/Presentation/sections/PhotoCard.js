@@ -20,10 +20,10 @@ import Grid from "@mui/material/Grid";
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
 
-// Material Kit 2 React examples
-import RotatingCard from "examples/Cards/RotatingCard";
-import RotatingCardFront from "examples/Cards/RotatingCard/RotatingCardFront";
-import RotatingCardBack from "examples/Cards/RotatingCard/RotatingCardBack";
+// Material Kit 2 React components
+import RotatingCard from "components/Cards/RotatingCard";
+import RotatingCardFront from "components/Cards/RotatingCard/RotatingCardFront";
+import RotatingCardBack from "components/Cards/RotatingCard/RotatingCardBack";
 
 // Images
 import bgFront1 from "assets/images/rotating-card-bg-front.jpeg";
