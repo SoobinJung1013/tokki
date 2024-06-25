@@ -8,11 +8,11 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 import DefaultNavbar from "components/Navbars/DefaultNavbar";
 import DefaultFooter from "components/Footers/DefaultFooter";
-// import CarouselComponent from "components/Carousel/CarouselComponent";
 import routes from "routes";
 import footerRoutes from "footer.routes";
 import bgImage from "assets/images/archieve-bg/21.jpg";
-// import items from "./data/gallerys";
+import Gallery from "components/Gallerys/Gallery";
+import galleryItems from "./data/gallerys";
 
 function Introduction() {
   return (
@@ -79,7 +79,7 @@ function Introduction() {
           boxShadow: ({ boxShadows: { xxl } }) => xxl,
         }}
       >
-        {/* <CarouselComponent items={items} maxWidth="800px" /> */}
+        <Gallery items={galleryItems} />
       </Card>
       <MKBox pt={6} px={1} mt={6}>
         <DefaultFooter content={footerRoutes} />

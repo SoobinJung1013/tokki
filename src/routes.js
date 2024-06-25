@@ -130,7 +130,7 @@ const routes = [
           },
           {
             name: "Video",
-            route: "/archieve/videos",
+            route: "/archieve/tvts",
             component: <Video />,
           },
         ],

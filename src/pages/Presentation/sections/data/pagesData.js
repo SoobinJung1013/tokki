@@ -41,7 +41,7 @@ export default [
   {
     image: Second,
     name: "TVT",
-    route: "/archieve/videos",
+    route: "/archieve/tvts",
   },
   {
     image: Fifth,

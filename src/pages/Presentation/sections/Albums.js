@@ -25,7 +25,7 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 // Presentation page components
-import ExampleCard from "pages/Presentation/components/ExampleCard";
+import AlbumCard from "components/Cards/AlbumCards/AlbumCard";
 
 // Data
 import data from "pages/Presentation/sections/data/designBlocksData";
@@ -48,7 +48,7 @@ function Albums() {
           {items.map(({ image, name, type, route, pro }) => (
             <Grid item xs={12} md={4} sx={{ mb: 2 }} key={name}>
               <Link to={pro ? "/" : route}>
-                <ExampleCard image={image} name={name} type={type} pro={pro} />
+                <AlbumCard image={image} name={name} type={type} pro={pro} />
               </Link>
             </Grid>
           ))}

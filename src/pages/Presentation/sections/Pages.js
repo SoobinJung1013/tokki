@@ -3,14 +3,14 @@ import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
-import ExampleCard from "pages/Presentation/components/ExampleCard";
 import data from "pages/Presentation/sections/data/pagesData";
+import AlbumCard from "components/Cards/AlbumCards/AlbumCard";
 
 function Pages() {
   const renderData = data.map(({ image, name, route }) => (
     <Grid item xs={12} md={4} key={name} sx={{ display: "flex", justifyContent: "center" }}>
       <Link to={route} style={{ display: "flex", justifyContent: "center", width: "100%" }}>
-        <ExampleCard image={image} name={name} display="grid" minHeight="auto" />
+        <AlbumCard image={image} name={name} display="grid" minHeight="auto" />
       </Link>
     </Grid>
   ));
