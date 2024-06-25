@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/tokki/static/js/main.b2bc3f5a.js",
+    "main.js": "/tokki/static/js/main.e7bfbc33.js",
     "static/media/97.JPG": "/tokki/static/media/97.76549973eacc77ef034b.JPG",
     "static/media/95.JPG": "/tokki/static/media/95.a4c4e6f65cc9d5367d52.JPG",
     "static/media/96.JPG": "/tokki/static/media/96.83caf1e534c6de2c462e.JPG",
@@ -188,9 +188,9 @@
     "static/media/theOtherSide.jpg": "/tokki/static/media/theOtherSide.e53e832e859b7b9bc3af.jpg",
     "static/media/sdj.jpg": "/tokki/static/media/sdj.a82954b0e531ccf30f1a.jpg",
     "index.html": "/tokki/index.html",
-    "main.b2bc3f5a.js.map": "/tokki/static/js/main.b2bc3f5a.js.map"
+    "main.e7bfbc33.js.map": "/tokki/static/js/main.e7bfbc33.js.map"
   },
   "entrypoints": [
-    "static/js/main.b2bc3f5a.js"
+    "static/js/main.e7bfbc33.js"
   ]
 }
