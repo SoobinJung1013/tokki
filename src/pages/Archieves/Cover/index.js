@@ -25,12 +25,7 @@ import MKTypography from "components/MKTypography";
 // Material Kit 2 React examples
 import DefaultNavbar from "components/Navbars/DefaultNavbar";
 import DefaultFooter from "components/Footers/DefaultFooter";
-
-// About Us page sections
-// import Information from "pages/LandingPages/AboutUs/sections/Information";
-// import Team from "pages/LandingPages/AboutUs/sections/Team";
-// import Featuring from "pages/LandingPages/AboutUs/sections/Featuring";
-// import Newsletter from "pages/LandingPages/AboutUs/sections/Newsletter";
+import CarouselComponent from "components/Carousel/CarouselComponent";
 
 // Routes
 import routes from "routes";
@@ -38,6 +33,7 @@ import footerRoutes from "footer.routes";
 
 // Images
 import bgImage from "assets/images/archieve-bg/16.jpg";
+import items from "./data/covers";
 
 function Introduction() {
   return (
@@ -106,6 +102,7 @@ function Introduction() {
         <Team />
         <Featuring />
         <Newsletter /> */}
+        <CarouselComponent items={items} maxWidth="800px" />
       </Card>
       <MKBox pt={6} px={1} mt={6}>
         <DefaultFooter content={footerRoutes} />

@@ -109,11 +109,6 @@ const routes = [
             component: <Gallery />,
           },
           {
-            name: "Video",
-            route: "/archieve/videos",
-            component: <Video />,
-          },
-          {
             name: "Concert",
             route: "/archieve/concerts",
             component: <Concert />,
@@ -132,6 +127,11 @@ const routes = [
             name: "Youtube & Show",
             route: "/archieve/shows",
             component: <Show />,
+          },
+          {
+            name: "Video",
+            route: "/archieve/videos",
+            component: <Video />,
           },
         ],
       },

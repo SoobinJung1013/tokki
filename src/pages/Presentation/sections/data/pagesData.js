@@ -29,19 +29,19 @@ export default [
     route: "/archieve/gallery",
   },
   {
-    image: Second,
-    name: "Video",
-    route: "/archieve/videos",
-  },
-  {
     image: Third,
     name: "Concert",
     route: "/archieve/concerts",
   },
   {
     image: Seven,
-    name: "Festival",
+    name: "Festival & Tour",
     route: "/archieve/festivals",
+  },
+  {
+    image: Second,
+    name: "TVT",
+    route: "/archieve/videos",
   },
   {
     image: Fifth,

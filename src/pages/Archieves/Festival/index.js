@@ -25,6 +25,7 @@ import MKTypography from "components/MKTypography";
 // Material Kit 2 React examples
 import DefaultNavbar from "components/Navbars/DefaultNavbar";
 import DefaultFooter from "components/Footers/DefaultFooter";
+import CarouselComponent from "components/Carousel/CarouselComponent";
 
 // Routes
 import routes from "routes";
@@ -32,6 +33,7 @@ import footerRoutes from "footer.routes";
 
 // Images
 import bgImage from "assets/images/archieve-bg/2.jpg";
+import items from "./data/festivals";
 
 function Introduction() {
   return (
@@ -82,7 +84,7 @@ function Introduction() {
                 },
               })}
             >
-              Festival
+              Festival & Tour
             </MKTypography>
           </Grid>
         </Container>
@@ -100,6 +102,7 @@ function Introduction() {
         <Team />
         <Featuring />
         <Newsletter /> */}
+        <CarouselComponent items={items} maxWidth="800px" />
       </Card>
       <MKBox pt={6} px={1} mt={6}>
         <DefaultFooter content={footerRoutes} />
