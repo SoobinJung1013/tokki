@@ -2,6 +2,8 @@
 
 Tokki is a web application based on [Creative Tim's Material Kit React](https://github.com/creativetimofficial/material-kit-react).
 
+You can view the deployed application at the following link: [Tokki Deployment Link](https://soobinjung1013.github.io/tokki/)
+
 ## Prerequisites
 
 Ensure you have Node.js and npm installed on your machine.
