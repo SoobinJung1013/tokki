@@ -13,35 +13,25 @@ import footerRoutes from "footer.routes";
 import bgImage from "assets/images/bg-image/L.jpg";
 
 // Import the new sections
-// import AlbumIntroduction from "components/Albums/AlbumIntroduction";
-// import MusicVideo from "components/Albums/MusicVideo";
-// import TrackList from "components/Albums/TrackList";
+import AlbumIntroduction from "components/Albums/AlbumIntroduction";
+import MusicVideo from "components/Albums/MusicVideo";
+import TrackList from "components/Albums/TrackList";
 
 function Introduction() {
-  // const albumData = {
-  //   title: "앨범 소개",
-  //   // description: "As long as we walk our path - honey, it don't matter.",
-  // };
+  const albumData = {
+    title: "앨범 소개",
+    description: "It always starts with an “L”",
+  };
 
-  // const tracks = [
-  //   // { title: "Violet", duration: "3:31" },
-  //   // { title: "PINKTOP", duration: "3:59" },
-  //   // { title: "Let Me Go!", duration: "3:08" },
-  //   // { title: "Time to Fight Back In My Way", duration: "3:34" },
-  //   // { title: "Radio", duration: "4:22" },
-  //   // { title: "Crap", duration: "4:53" },
-  //   // { title: "Nicer", duration: "4:24" },
-  //   // { title: "Medicine", duration: "2:53" },
-  //   // { title: "S.A.D (Song About Drinking)", duration: "3:41" },
-  //   // { title: "Summer", duration: "3:28" },
-  // ];
+  const tracks = [
+    { title: "Velvet Glove", duration: "2:44" },
+    { title: "Psycho", duration: "4:02" },
+    { title: "Tell'em boys", duration: "34:29" },
+    { title: "Starfish on your head", duration: "3:12" },
+    { title: '"L"', duration: "4:20" },
+  ];
 
-  // const videos = [
-  //   // { id: "8Y5dL2XdIMo?si=NMuMbf0ppYr8rt4O", title: "Let Me Go!" },
-  //   // { id: "13EWqjMqkiY?si=_QckuJqeV-9p0reb", title: "Summer" },
-  //   // { id: "Mr0aqxOppu8?si=r3GYQByw0kKLcDvv", title: "S.A.D" },
-  //   // { id: "xxNWPCXnlPU?si=Kddcj_y2ruB2mbXb", title: "Radio" },
-  // ];
+  const videos = [{ id: "2mXlFgUpWkI?si=LFWGVyrG28lXLwVBO", title: '"L"' }];
 
   return (
     <>
@@ -105,12 +95,9 @@ function Introduction() {
           boxShadow: ({ boxShadows: { xxl } }) => xxl,
         }}
       >
-        <MKTypography variant="body2" color="textSecondary" display="grid" placeItems="center">
-          Coming Sooooon 🖤
-        </MKTypography>
-        {/* <AlbumIntroduction title={albumData.title} description={albumData.description} />
+        <AlbumIntroduction title={albumData.title} description={albumData.description} />
         <TrackList tracks={tracks} />
-        <MusicVideo videos={videos} /> */}
+        <MusicVideo videos={videos} />
       </Card>
       <MKBox pt={6} px={1} mt={6}>
         <DefaultFooter content={footerRoutes} />
