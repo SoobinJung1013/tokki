@@ -13,7 +13,7 @@ Ensure you have Node.js and npm installed on your machine.
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/your-username/tokki.git
+   git clone https://github.com/SoobinJung1013/tokki.git
    cd tokki
    ```
 
