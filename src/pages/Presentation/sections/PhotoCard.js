@@ -58,7 +58,8 @@ function PhotoCard() {
                 description="Our eyes are closed But we know when the sun is near us"
                 action={{
                   type: "internal",
-                  route: "https://open.spotify.com/playlist/10QMRgGM2TWvqswLJjpJzg",
+                  route:
+                    "https://open.spotify.com/artist/2jLHrOkh1M5rLJgnrgfQf1?si=Uzt4heKxS5icJVruoE07cA",
                   label: "Join the TVT",
                 }}
               />
@@ -79,7 +80,7 @@ function PhotoCard() {
                 action={{
                   type: "internal",
                   route:
-                    "https://open.spotify.com/playlist/0tASiwvgVOZHA9H1smOAOy?si=VoOycIXbRq-5sy--luKeVA&pi=a-efevtI6ATJiE&nd=1&dlsi=9121b75480e64e4a",
+                    "https://open.spotify.com/artist/6dhfy4ByARPJdPtMyrUYJK?si=_51UOpHyRVq_uwWK-312HQ",
                   label: "Yerin Baek",
                 }}
               />
@@ -117,8 +118,9 @@ function PhotoCard() {
                 }
                 action={{
                   type: "internal",
-                  route: "https://open.spotify.com/playlist/7l1tIiZqxp15Z18k0uZRTQ",
-                  label: "COver",
+                  route:
+                    "https://open.spotify.com/playlist/7l1tIiZqxp15Z18k0uZRTQ?si=efdb2549bb5a4893",
+                  label: "Cover",
                 }}
               />
             </RotatingCard>
